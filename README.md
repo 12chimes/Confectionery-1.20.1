@@ -1,6 +1,6 @@
 TODO
 - add basic blocks/items
-- add dependencies
+- ~~add dependencies~~
 - add create recipes
 - add prior version support (implement missing mappings)
 - add new status effects, liquids
