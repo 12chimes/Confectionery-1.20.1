@@ -12,6 +12,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import uwu.cocoa.confectionery.block.ModBlocks;
+import uwu.cocoa.confectionery.item.ModCreativeModTabs;
+import uwu.cocoa.confectionery.item.ModItems;
 
 @Mod(Confectionery.MOD_ID)
 public class Confectionery {
@@ -20,6 +23,11 @@ public class Confectionery {
 
     public Confectionery() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

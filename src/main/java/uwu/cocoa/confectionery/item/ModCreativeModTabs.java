@@ -9,8 +9,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import uwu.cocoa.confectionery.Confectionery;
+import uwu.cocoa.confectionery.block.ModBlocks;
 
-public class ModCreativeTabs {
+public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Confectionery.MOD_ID);
 
@@ -18,8 +19,11 @@ public class ModCreativeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.COCOA_BEANS))
                     .title(Component.translatable("creativetab.confectionery_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.GINGERBREAD_BLOCK.get());
+                        output.accept(ModBlocks.GINGERBREAD_STAIRS.get());
+                        output.accept(ModBlocks.GINGERBREAD_SLAB.get());
 
-
+                        output.accept(ModItems.CANDY_CANE.get());
 
                     })).build());
 

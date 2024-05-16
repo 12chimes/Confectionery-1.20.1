@@ -15,6 +15,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        this.dropSelf(ModBlocks.GINGERBREAD_BLOCK.get());
+        this.dropSelf(ModBlocks.GINGERBREAD_STAIRS.get());
+        this.add(ModBlocks.GINGERBREAD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GINGERBREAD_SLAB.get()));
+
+
 
 
         //blocks need to drop themselves when broken

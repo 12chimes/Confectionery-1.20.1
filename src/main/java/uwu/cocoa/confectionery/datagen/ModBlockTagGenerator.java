@@ -7,6 +7,7 @@ import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 import uwu.cocoa.confectionery.Confectionery;
+import uwu.cocoa.confectionery.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -18,6 +19,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.GINGERBREAD_BLOCK.get(),
+                        ModBlocks.GINGERBREAD_STAIRS.get(),
+                        ModBlocks.GINGERBREAD_SLAB.get()
+
+                );
+
+
 
     //break with what tool
 
