@@ -4,5 +4,6 @@ TODO
 - add create recipes
 - add prior version support (implement missing mappings)
 - add new status effects, liquids
-- review and refresh textures (mainly the blocks)
+- create/refresh textures (mainly the blocks)
 - improve upon the previous version (caramel blocks = honey?)
+- review the mod in full (final polish)
