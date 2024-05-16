@@ -3,5 +3,7 @@
 
   "block.confectionery.gingerbread_block": "Gingerbread Block",
   "block.confectionery.gingerbread_stairs": "Gingerbread Stairs",
-  "block.confectionery.gingerbread_slab": "Gingerbread Slab"
+  "block.confectionery.gingerbread_slab": "Gingerbread Slab",
+
+  "creativetab.confectionary_tab": "Create: Confectionery"
 }
