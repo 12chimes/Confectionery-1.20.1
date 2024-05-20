@@ -13,8 +13,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import uwu.cocoa.confectionery.block.ModBlocks;
+import uwu.cocoa.confectionery.effect.ModEffects;
 import uwu.cocoa.confectionery.item.ModCreativeModTabs;
 import uwu.cocoa.confectionery.item.ModItems;
+import uwu.cocoa.confectionery.sound.ModSounds;
 
 @Mod(Confectionery.MOD_ID)
 public class Confectionery {
@@ -28,6 +30,10 @@ public class Confectionery {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

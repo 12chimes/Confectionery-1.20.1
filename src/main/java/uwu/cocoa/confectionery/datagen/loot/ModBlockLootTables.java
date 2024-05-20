@@ -20,13 +20,37 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.GINGERBREAD_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.GINGERBREAD_SLAB.get()));
 
+        this.dropSelf(ModBlocks.GINGERBRICKS.get());
+        this.dropSelf(ModBlocks.GINGERBRICK_STAIRS.get());
+        this.add(ModBlocks.GINGERBRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GINGERBRICK_SLAB.get()));
 
+        this.dropSelf(ModBlocks.CHOCOLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.CHOCOLATE_STAIRS.get());
+        this.add(ModBlocks.CHOCOLATE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CHOCOLATE_SLAB.get()));
 
+        this.dropSelf(ModBlocks.DARK_CHOCOLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.DARK_CHOCOLATE_STAIRS.get());
+        this.add(ModBlocks.DARK_CHOCOLATE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DARK_CHOCOLATE_SLAB.get()));
 
-        //blocks need to drop themselves when broken
+        this.dropSelf(ModBlocks.WHITE_CHOCOLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.WHITE_CHOCOLATE_STAIRS.get());
+        this.add(ModBlocks.WHITE_CHOCOLATE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WHITE_CHOCOLATE_SLAB.get()));
 
+        this.dropSelf(ModBlocks.RUBY_CHOCOLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.RUBY_CHOCOLATE_STAIRS.get());
+        this.add(ModBlocks.RUBY_CHOCOLATE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RUBY_CHOCOLATE_SLAB.get()));
 
+        this.dropSelf(ModBlocks.CARAMEL_BLOCK.get());
+        this.dropSelf(ModBlocks.CARAMEL_STAIRS.get());
+        this.add(ModBlocks.CARAMEL_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CARAMEL_SLAB.get()));
 
+        this.dropSelf(ModBlocks.CANDY_CANE_BLOCK.get());
 
     }
 

@@ -22,13 +22,25 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.GINGERBREAD_BLOCK.get(),
                         ModBlocks.GINGERBREAD_STAIRS.get(),
-                        ModBlocks.GINGERBREAD_SLAB.get()
-
-                );
-
-
-
-    //break with what tool
-
+                        ModBlocks.GINGERBREAD_SLAB.get(),
+                        ModBlocks.GINGERBRICKS.get(),
+                        ModBlocks.GINGERBRICK_STAIRS.get(),
+                        ModBlocks.GINGERBRICK_SLAB.get(),
+                        ModBlocks.CHOCOLATE_BLOCK.get(),
+                        ModBlocks.CHOCOLATE_STAIRS.get(),
+                        ModBlocks.CHOCOLATE_SLAB.get(),
+                        ModBlocks.DARK_CHOCOLATE_BLOCK.get(),
+                        ModBlocks.DARK_CHOCOLATE_STAIRS.get(),
+                        ModBlocks.DARK_CHOCOLATE_SLAB.get(),
+                        ModBlocks.WHITE_CHOCOLATE_BLOCK.get(),
+                        ModBlocks.WHITE_CHOCOLATE_STAIRS.get(),
+                        ModBlocks.WHITE_CHOCOLATE_SLAB.get(),
+                        ModBlocks.RUBY_CHOCOLATE_BLOCK.get(),
+                        ModBlocks.RUBY_CHOCOLATE_STAIRS.get(),
+                        ModBlocks.RUBY_CHOCOLATE_SLAB.get(),
+                        ModBlocks.CARAMEL_BLOCK.get(),
+                        ModBlocks.CARAMEL_STAIRS.get(),
+                        ModBlocks.CARAMEL_SLAB.get(),
+                        ModBlocks.CANDY_CANE_BLOCK.get());
     }
 }

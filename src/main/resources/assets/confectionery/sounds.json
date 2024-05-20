@@ -1,0 +1,10 @@
+{
+  "the_bright_side": {
+    "sounds": [
+      {
+        "name": "confectionery:the_bright_side",
+        "stream": true
+      }
+    ]
+  }
+}

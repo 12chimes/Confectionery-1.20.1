@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "confectionery:block/ruby_chocolate_block"
+  }
+}

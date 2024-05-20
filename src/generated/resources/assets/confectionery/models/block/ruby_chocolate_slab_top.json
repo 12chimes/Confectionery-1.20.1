@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "confectionery:block/ruby_chocolate_block",
+    "side": "confectionery:block/ruby_chocolate_block",
+    "top": "confectionery:block/ruby_chocolate_block"
+  }
+}

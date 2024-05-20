@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "confectionery:block/chocolate_slab"
+    },
+    "type=double": {
+      "model": "confectionery:block/chocolate_block"
+    },
+    "type=top": {
+      "model": "confectionery:block/chocolate_slab_top"
+    }
+  }
+}

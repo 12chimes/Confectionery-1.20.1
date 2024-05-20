@@ -1,9 +1,83 @@
 {
+  "item.confectionery.gingerdough": "Gingerdough",
+  "item.confectionery.gingerbread": "Gingerbread",
+  "item.confectionery.gingerbread_man": "Gingerbread Man",
+
+  "item.confectionery.crushed_cocoa": "Crushed Cocoa",
+  "item.confectionery.cocoa_powder": "Cocoa Powder",
+  "item.confectionery.cocoa_butter": "Cocoa Butter",
+
+  "item.confectionery.dark_chocolate_bar": "Bar of Dark Chocolate",
+  "item.confectionery.white_chocolate_bar": "Bar of White Chocolate",
+  "item.confectionery.ruby_chocolate_bar": "Bar of Ruby Chocolate",
+  "item.confectionery.caramel_bar": "Bar of Caramel",
+
+  "item.confectionery.dark_chocolate_bucket": "Dark Chocolate Bucket",
+  "item.confectionery.white_chocolate_bucket": "White Chocolate Bucket",
+  "item.confectionery.ruby_chocolate_bucket": "Ruby Chocolate Bucket",
+  "item.confectionery.caramel_bucket": "Caramel Bucket",
+
+  "item.confectionery.full_chocolate_bar": "Full Chocolate Bar",
+  "item.confectionery.full_dark_chocolate_bar": "Full Dark Chocolate Bar",
+  "item.confectionery.full_white_chocolate_bar": "Full White Chocolate Bar",
+  "item.confectionery.full_ruby_chocolate_bar": "Full Ruby Chocolate Bar",
+
+  "item.confectionery.hot_chocolate": "Hot Chocolate",
+  "item.confectionery.soothing_hot_chocolate": "Soothing Hot Chocolate",
+
+  "item.confectionery.dark_chocolate_berries": "Dark Chocolate Glazed Berries",
+  "item.confectionery.white_chocolate_berries": "White Chocolate Glazed Berries",
+  "item.confectionery.ruby_chocolate_berries": "Ruby Chocolate Glazed Berries",
+  "item.confectionery.caramel_berries": "Caramel Glazed Berries",
+
+  "item.confectionery.marshmallow_stick": "Marshmallow on a Stick",
+  "item.confectionery.caramelised_marshmallow_stick": "Caramelised Marshmallow on a Stick",
+
+  "item.confectionery.marshmallow": "Marshmallows",
+  "item.confectionery.chocolate_marshmallow": "Chocolate Glazed Marshmallows",
+  "item.confectionery.dark_chocolate_marshmallow": "Dark Chocolate Glazed Marshmallows",
+  "item.confectionery.white_chocolate_marshmallow": "White Chocolate Glazed Marshmallows",
+  "item.confectionery.ruby_chocolate_marshmallow": "Ruby Chocolate Glazed Marshmallows",
+
   "item.confectionery.candy_cane": "Candy Cane",
+
+  "item.confectionery.the_bright_side": "§bMusic Disc",
+  "item.confectionery.the_bright_side.desc": "RedWolf - The Bright Side",
+
+  "item.confectionery.honey_candy": "Honey Candy",
 
   "block.confectionery.gingerbread_block": "Gingerbread Block",
   "block.confectionery.gingerbread_stairs": "Gingerbread Stairs",
   "block.confectionery.gingerbread_slab": "Gingerbread Slab",
 
-  "creativetab.confectionary_tab": "Create: Confectionery"
+  "block.confectionery.gingerbricks": "Gingerbread Bricks",
+  "block.confectionery.gingerbrick_stairs": "Gingerbread Brick Stairs",
+  "block.confectionery.gingerbrick_slab": "Gingerbread Brick Slab",
+
+  "block.confectionery.chocolate_block": "Chocolate Block",
+  "block.confectionery.chocolate_stairs": "Chocolate Stairs",
+  "block.confectionery.chocolate_slab": "Chocolate Slab",
+
+  "block.confectionery.white_chocolate_block": "White Chocolate Block",
+  "block.confectionery.white_chocolate_stairs": "White Chocolate Stairs",
+  "block.confectionery.white_chocolate_slab": "White Chocolate Slab",
+
+  "block.confectionery.dark_chocolate_block": "Dark Chocolate Block",
+  "block.confectionery.dark_chocolate_stairs": "Dark Chocolate Stairs",
+  "block.confectionery.dark_chocolate_slab": "Dark Chocolate Slab",
+
+  "block.confectionery.ruby_chocolate_block": "Ruby Chocolate Block",
+  "block.confectionery.ruby_chocolate_stairs": "Ruby Chocolate Stairs",
+  "block.confectionery.ruby_chocolate_slab": "Ruby Chocolate Slab",
+
+  "block.confectionery.caramel_block": "Caramel Block",
+  "block.confectionery.caramel_stairs": "Caramel Stairs",
+  "block.confectionery.caramel_slab": "Caramel Slab",
+
+  "block.confectionery.candy_cane_block": "Candy Cane Block",
+
+  "effect.confectionery.stimulation": "Stimulation",
+  "effect.confectionery.rest": "Rest",
+
+  "creativetab.confectionery_tab": "Confectionery"
 }

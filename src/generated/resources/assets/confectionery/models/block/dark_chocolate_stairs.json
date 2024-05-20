@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "confectionery:block/dark_chocolate_block",
+    "side": "confectionery:block/dark_chocolate_block",
+    "top": "confectionery:block/dark_chocolate_block"
+  }
+}

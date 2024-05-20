@@ -3,7 +3,10 @@ package uwu.cocoa.confectionery.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import uwu.cocoa.confectionery.block.ModBlocks;
 
 import java.util.function.Consumer;
 
@@ -15,9 +18,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
 
-        //craft stuff
+        //add create recipes
+
+
+
+
 
     }
-
-
 }
